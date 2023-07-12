@@ -1,12 +1,14 @@
 * {
   color: #fff;
 }
+a {
+  font-style: none;
+}
 body {
   background-color: #1f6e8c;
-  min-height: 3000px;
 }
 .jumbotron {
-  padding-top: 2rem;
+  padding-top: 5rem;
   background-color: #1f6e8c;
 }
 .about {
@@ -16,9 +18,19 @@ body {
   padding: 0px;
   background-color: #1f6e8c;
 }
+.card {
+  min-height: 400px;
+}
+.card-img-top {
+  height: 200px;
+  max-height: 200px;
+}
 .card-text {
   color: black;
 }
 .contact {
   background-color: #35a29f;
+}
+footer {
+  background-color: #1f6e8c;
 }
